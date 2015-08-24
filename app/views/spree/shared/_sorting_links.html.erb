@@ -1,0 +1,13 @@
+<div id="sort-links">
+  <div class="row">
+    <div class="col-sm-12">
+      <%= Spree.t(:sort_by) %>
+
+      <div class="btn-group" role="group" aria-label="sort-links">
+        <% Spree::SortConfiguration::Config.allowed_sortings.each do |sorting| %>
+          <%= link_to_sort sorting %>
+        <% end %>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,11 @@
+# Sample localization file for English. Add more files in this directory for other locales.
+# See https://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
+
+en:
+  spree:
+    sort_by: "Sort by:"
+    ascend_by_updated_at: "Latest <i class='glyphicon glyphicon-star'></i>"
+    ascend_by_master_price: "Low Price <i class='glyphicon glyphicon-sort-by-attributes'></i>"
+    descend_by_master_price: "High Price <i class='glyphicon glyphicon-sort-by-attributes-alt'></i>"
+    ascend_by_name: "A-Z <i class='glyphicon glyphicon-sort-by-alphabet'></i>"
+    descend_by_name: "Z-A <i class='glyphicon glyphicon-sort-by-alphabet-alt'></i>"

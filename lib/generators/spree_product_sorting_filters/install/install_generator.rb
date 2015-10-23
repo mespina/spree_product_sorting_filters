@@ -28,7 +28,7 @@ module SpreeProductSortingFilters
       end
 
       def add_to_importers
-        append_file 'config/initializers/spree.rb', "Spree::SortConfiguration::Config.allowed_sortings += [:ascend_by_updated_at, :ascend_by_master_price, :descend_by_master_price, :ascend_by_name, :descend_by_name]\n"
+        append_file 'config/initializers/spree.rb', "Spree::Sorts::Config.allowed_sortings += [:ascend_by_updated_at, :ascend_by_master_price, :descend_by_master_price, :ascend_by_name, :descend_by_name]\n"
       end
     end
   end

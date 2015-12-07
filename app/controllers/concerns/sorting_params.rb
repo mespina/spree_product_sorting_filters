@@ -20,6 +20,6 @@ module SortingParams
     end
 
     def allowed_sortings
-      Spree::SortConfiguration::Config.allowed_sortings
+      Spree::Sorts::Config[:allowed_sortings]
     end
 end
